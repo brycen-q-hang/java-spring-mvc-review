@@ -19,7 +19,7 @@ public class UserController {
     @RequestMapping("/")
     public String getHomePage() {
         String text = this.userService.handerHello();
-        return "eric.html";
+        return "hello";
     }
 }
 
